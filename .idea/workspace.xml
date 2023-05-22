@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d508466f-4363-4ec1-af77-76b9a5ce6406" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/burger/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/burger/Fromage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/burger/Ingredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/burger/Pain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/burger/Salade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/burger/Steak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/Camion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/vehicules/Camion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/DemoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/DemoConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/Moteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/vehicules/Moteur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/MoteurElectrique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/vehicules/MoteurElectrique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/MoteurThermique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/vehicules/MoteurThermique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/Vehicule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/vehicules/Vehicule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/Voiture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/vehicules/Voiture.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>

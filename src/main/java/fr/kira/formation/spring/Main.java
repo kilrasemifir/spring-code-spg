@@ -1,5 +1,6 @@
 package fr.kira.formation.spring;
 
+import fr.kira.formation.spring.burger.Burger;
 import fr.kira.formation.spring.vehicules.Voiture;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -12,12 +13,13 @@ public class Main {
 
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(Main.class);
-        System.out.println(context.getBean( String.class));
-        System.out.println(context.getBean("tailleMessage", Integer.class)); // 23
-//        Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
-        Voiture voiture = context.getBean("voitureElectrique", Voiture.class);
-        voiture.rouler();
-        System.out.println(voiture.getMoteur().getNom());
+//        System.out.println(context.getBean( String.class));
+//        System.out.println(context.getBean("tailleMessage", Integer.class)); // 23
+////        Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
+//        Voiture voiture = context.getBean("voitureElectrique", Voiture.class);
+//        voiture.rouler();
+//        System.out.println(voiture.getMoteur().getNom());
+        System.out.println(context.getBean(Burger.class));
 
 
 
