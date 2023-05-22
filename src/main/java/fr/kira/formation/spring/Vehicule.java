@@ -1,2 +1,6 @@
-package fr.kira.formation.spring;public interface Vehicule {
+package fr.kira.formation.spring;
+
+public interface Vehicule {
+
+    public void rouler();
 }
