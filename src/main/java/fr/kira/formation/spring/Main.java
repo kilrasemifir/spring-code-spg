@@ -14,8 +14,9 @@ public class Main {
         System.out.println(context.getBean( String.class));
         System.out.println(context.getBean("tailleMessage", Integer.class)); // 23
 //        Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
-        Vehicule voiture = context.getBean(Vehicule.class);
+        Voiture voiture = context.getBean("voitureElectrique", Voiture.class);
         voiture.rouler();
+        System.out.println(voiture.getMoteur().getNom());
 
     }
 }

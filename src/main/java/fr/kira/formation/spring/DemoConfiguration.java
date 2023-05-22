@@ -48,4 +48,18 @@ public class DemoConfiguration {
 //    public Voiture voiture(){
 //        return new Voiture();
 //    }
+
+    @Bean
+    public Voiture voitureThermique(
+            @Qualifier("moteurThermique") Moteur moteur
+    ){
+        return new Voiture("Voiture thermique", moteur);
+    }
+
+    @Bean
+    public Voiture voitureElectrique(
+            @Qualifier("moteurElectrique") Moteur moteur
+    ){
+        return new Voiture("Voiture electrique", moteur);
+    }
 }
