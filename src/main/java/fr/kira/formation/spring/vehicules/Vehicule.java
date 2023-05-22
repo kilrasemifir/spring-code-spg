@@ -1,4 +1,4 @@
-package fr.kira.formation.spring;
+package fr.kira.formation.spring.vehicules;
 
 public interface Vehicule {
 

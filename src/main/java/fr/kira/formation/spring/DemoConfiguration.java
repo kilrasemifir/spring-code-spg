@@ -1,8 +1,9 @@
 package fr.kira.formation.spring;
 
+import fr.kira.formation.spring.vehicules.Moteur;
+import fr.kira.formation.spring.vehicules.Voiture;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 

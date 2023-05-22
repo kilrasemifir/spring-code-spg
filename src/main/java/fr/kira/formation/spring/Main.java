@@ -1,5 +1,6 @@
 package fr.kira.formation.spring;
 
+import fr.kira.formation.spring.vehicules.Voiture;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
@@ -17,6 +18,8 @@ public class Main {
         Voiture voiture = context.getBean("voitureElectrique", Voiture.class);
         voiture.rouler();
         System.out.println(voiture.getMoteur().getNom());
+
+
 
     }
 }

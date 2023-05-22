@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d508466f-4363-4ec1-af77-76b9a5ce6406" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/Moteur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/MoteurElectrique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/MoteurThermique.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/Camion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/vehicules/Camion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/DemoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/DemoConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/Voiture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/Voiture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/Moteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/vehicules/Moteur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/MoteurElectrique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/vehicules/MoteurElectrique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/MoteurThermique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/vehicules/MoteurThermique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/Vehicule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/vehicules/Vehicule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/Voiture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/spring/vehicules/Voiture.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +42,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />

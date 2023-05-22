@@ -1,6 +1,5 @@
-package fr.kira.formation.spring;
+package fr.kira.formation.spring.vehicules;
 
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
